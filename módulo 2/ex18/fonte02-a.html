@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'BungeeSpice';
+            src: url('BungeeSpice-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de format()
+
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        
+        h1, h2 {
+            font-family: BungeeSpice, Helvetica, sans-serif;
+            font-size: 40px;
+            -webkit-text-stroke-width: 100px;
+            -webkit-text-stroke-color: #000;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif
+        }
+        
+        .cube {
+            margin: auto;
+            position: relative;
+            width: 200px;
+            height: 200px;
+            transform-style: preserve-3d;
+            animation: rotate 5s infinite linear;
+            }
+
+            .face {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: rgba(255, 255, 255, 0.8);
+            border: 1px solid #ccc;
+            }
+
+            .front  { transform: translateZ(100px); }
+            .back   { transform: rotateY(180deg) translateZ(100px); }
+            .left   { transform: rotateY(-90deg) translateZ(100px); }
+            .right  { transform: rotateY(90deg) translateZ(100px); }
+            .top    { transform: rotateX(90deg) translateZ(100px); }
+            .bottom { transform: rotateX(-90deg) translateZ(100px); }
+
+            @keyframes rotate {
+            from { transform: rotate3d(0, 1, 0, 0deg); }
+            to   { transform: rotate3d(0, 1, 0, 360deg); }
+            }
+        
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sequi suscipit impedit consequuntur rerum dolore sunt cumque expedita, quam deleniti. Officia explicabo quam unde architecto. Inventore ratione doloribus molestiae reprehenderit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero modi id reprehenderit suscipit sint distinctio dolor molestias praesentium itaque quasi, sed consectetur repellat deserunt et iste neque rerum ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe possimus enim nemo quod culpa? Temporibus quas mollitia adipisci odit tempore? Consequuntur id fuga quibusdam, minima placeat impedit sunt a eaque?</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores fugit est ut. Modi, dignissimos. Quasi voluptates nam incidunt excepturi veniam, ipsa corporis deserunt itaque repellat dolor saepe sit tenetur minima.</p>
+
+    <div class="cube">
+        <div class="face front">Front</div>
+        <div class="face back">Back</div>
+        <div class="face left">Left</div>
+        <div class="face right">Right</div>
+        <div class="face top">Top</div>
+        <div class="face bottom">Bottom</div>
+      </div>
+      
+</body>
+</html>

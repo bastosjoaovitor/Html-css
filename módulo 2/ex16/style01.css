@@ -1,0 +1,19 @@
+#h2-1 {
+    background-color: cornflowerblue;
+}
+
+#h2-2 {
+    background-color: #6495ED;
+}
+
+#h2-3 {
+    background-color: rgb(100,149,237);
+}
+
+#h2-4 {
+    background-color: hsl(210.8, 79.2%, 66.1%);
+}
+
+#h2-5 {
+    background-color: rgba(100, 148, 237, 0.5);
+}
