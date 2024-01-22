@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 13 parte 2</title>
+    <style>
+        body {
+            height: 98.307vh;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15pt;
+            background: linear-gradient(to right, #5686F5, #56B8F5, #55EAF5, #56F5CA, #56F594);
+            background-size: cover;
+        }
+
+        table {
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            border-spacing: 15px;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        td {
+            background-color: rgb(255, 217, 0); 
+            width: 100px;
+            height: 80px;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 10px;
+            transition: transform .2s;
+        }
+
+        td:hover {
+            transform: scale(1.1);
+            background-color: darkmagenta;
+            color: white;
+            font-size: 18pt;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+        </tr>
+        <tr>
+            <td rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <td colspan="4">M</td>
+        </tr>
+    </table>
+</body>
+</html>
