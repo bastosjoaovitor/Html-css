@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 50px;
+        }
+
+        thead th {
+            background-color: rgb(85, 85, 85);
+            font-weight: bold;
+            color: white;
+            -webkit-text-stroke: 0.1px black;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        .media-tema {
+            background-color: rgb(85, 85, 85);
+            text-align: left;
+            color: white;
+            -webkit-text-stroke: 0.1px black;
+        }
+</style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th>Notas 1</th>
+                <th>Notas 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>1.1</td>
+                <td>1.1</td>
+                <td>1.1</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>2.2</td>
+                <td>2.2</td>
+                <td>2.2</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>3.3</td>
+                <td>3.3</td>
+                <td>3.3</td>
+            </tr>
+
+            <tr>
+                <th colspan="4" class="media-tema">Média de Exatas</th>
+                <td class="media-tema">1.65</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">História</th>
+                <td>História</td>
+                <td>4.4</td>
+                <td>4.4</td>
+                <td>4.4</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>5.5</td>
+                <td>5.5</td>
+                <td>5.5</td>
+            </tr>
+            
+            <tr>
+                <th colspan="4" class="media-tema">Média de Humanas</th>
+                <td class="media-tema">4.95</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
