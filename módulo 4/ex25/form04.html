@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="idnome">Nome: </label>
+                <input type="text" name="name" id="idnome">
+            </p>
+            <p>
+                <label for="idemail">E-mail: </label>
+                <input type="email" name="email" id="idemail" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="idtel">Telefone: </label>
+                <input type="tel" name="tel" id="idtel" autocomplete="tel" required>
+            </p>
+        </fieldset>
+        <!-- Estudar mais sobre RegEx 
+
+        HTML5 telefone pattern -->
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Delete">
+        </p>
+    </form>
+</body>
+</html>
