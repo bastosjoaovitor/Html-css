@@ -29,7 +29,7 @@ span#iconmenu {
 }
 
 span#iconmenu:hover {
-    background-color: white;
+    background-color: rgb(139, 139, 139);
 }
 
 menu {
