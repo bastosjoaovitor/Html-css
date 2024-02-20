@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-/*
-  Paleta:
-   - #6CD4FF
-   - #EFCB68
-*/
-
 * {
     margin: 0px;
     padding: 0px;
@@ -74,11 +68,35 @@ div p {
 
 .campo {
     margin: 10px;
-    padding: 10px;
+    height: 40px;
     background-color: purple;
     display: block;
     width: 96%;
-    border-radius: 5px;
+    border-radius: 8px;
+    overflow: hidden;
+    border-style: border-box;
+    border: 3px solid purple;
+}
+
+.campo > label > span {
+    color: white;
+    font-size: 2em;
+    height: 40px;
+    width: 40px;
+    transform: translate(4px, 1px);
+}
+
+.campo > input {
+    border: 0px;
+    height: 40px;
+    width: calc(100% - 50px);
+    transform: translateY(-9px);
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.campo > input:focus {
+    outline: none;
 }
 
 form > input {
