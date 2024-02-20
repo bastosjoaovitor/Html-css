@@ -28,7 +28,7 @@ Grandes telas: a partir de 1200px
         border-right: 3px solid black;
         height: 100%;
         width: 45%;
-        
+
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -36,5 +36,6 @@ Grandes telas: a partir de 1200px
 
     section > div#login {
         float: right;
+        width: 55%;
     }
 }
