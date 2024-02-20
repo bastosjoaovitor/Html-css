@@ -14,10 +14,27 @@ Grandes telas: a partir de 1200px
 
 @media screen and (min-width: 768px) {
     body {
-        background-color: red;
-        background-image: none;
+        background-image: url(../imagens/fundo-tela-grande.jpeg);
     }
-    main {
-        background-color: yellow;
+
+    section {
+        height: 90vh;
+        width: 90vw;
+        max-width: 1000px;
+    }
+
+    section > div#imagem {
+        float: left;
+        border-right: 3px solid black;
+        height: 100%;
+        width: 45%;
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    section > div#login {
+        float: right;
     }
 }
