@@ -39,8 +39,8 @@ section {
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
 
-    height: 80vh;
-    width: 70vw;
+    height: 90vh;
+    width: 80vw;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -61,4 +61,52 @@ section > div#imagem {
 section > div#login {
     display: block;
     padding: 15px;
+}
+
+div h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+div p {
+    margin: 10px;
+}
+
+.campo {
+    margin: 10px;
+    padding: 10px;
+    background-color: purple;
+    display: block;
+    width: 96%;
+    border-radius: 5px;
+}
+
+form > input {
+    display: block;
+    font-size: 1em;
+    width: 96%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit] {
+    background-color: #6cd4ff;
+}
+
+form > input[type=submit]:hover {
+    background-color: #127099;
+    color: white;
+}
+
+form > input[type=button] {
+    border: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+form > input[type=button]:hover {
+    background-color: #666666;
+    color: white;
+    border: 1px solid rgba(255, 255, 255);
 }
