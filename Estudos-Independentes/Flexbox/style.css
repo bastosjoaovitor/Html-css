@@ -128,7 +128,7 @@ main > div > ul > li {
 
 footer {
     box-sizing: border-box;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100vw;
     background-color: #250001;
