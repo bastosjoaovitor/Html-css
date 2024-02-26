@@ -1,0 +1,113 @@
+/* Nível Intermediário - Galeria de Imagens: Crie uma galeria de imagens onde cada imagem tem uma largura fixa, mas a altura deve ser ajustada proporcionalmente. As imagens devem ser alinhadas em uma linha e envolvidas conforme necessário. Use Flexbox para alcançar isso. */
+
+@charset "UTF-8";
+
+html, body {
+    height: 100vh;
+    width: 100%;
+}
+
+.site {
+    box-sizing: border-box;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0F0F0F;
+}
+
+h1 {
+    color: white;
+}
+
+.carrossel {
+    background-color: #313338;
+    display: block;
+    height: 80vh;
+    width: 90vw;
+    max-width: 900px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+img {
+    object-fit: cover;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 95%;
+    border-radius: 10px;
+}
+
+span {
+    display: block;
+    box-sizing: border-box;
+    color: white;
+}
+
+h2 {
+    margin-top: 30px;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.galeria {
+    display: flex;
+    background-color: #313338;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    height: 80vh;
+    width: 90vw;
+    border-radius: 10px;
+    max-width: 900px;
+}
+
+.galeria img {
+    width: 21%;
+    height: auto;
+}
+
+footer {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: #f3f3f3;
+    color: black;
+    font-size: 1.2em;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
