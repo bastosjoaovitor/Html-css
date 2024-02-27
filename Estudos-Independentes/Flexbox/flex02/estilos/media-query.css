@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+
+    .galeria > img {
+        margin: 4%;
+        width: 40%;
+        height: auto;
+    }
+}
+
+@media screen and (aspect-ratio: 21/9) {
+    body {
+        background-color: yellow;
+    }
+}
