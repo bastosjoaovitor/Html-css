@@ -8,17 +8,17 @@ Este repositório contém meus estudos de HTML e CSS, incluindo exercícios do [
 
 Neste diretório estão os exercícios realizados durante o curso de HTML e CSS do Curso em Vídeo.
 
-- [Módulo 1](Html-css/módulo_1)
-- [Módulo 2](Html-css/módulo_2)
-- [Módulo 3](Html-css/módulo_3)
-- [Módulo 4](Html-css/módulo_4)
+- [Módulo 1](módulo_1)
+- [Módulo 2](módulo_2)
+- [Módulo 3](módulo_3)
+- [Módulo 4](módulo_4)
 
 ## :bulb: Estudos Autodidatas
 
 Neste diretório estão meus estudos autodidatas sobre Flexbox e Grid layout.
 
-- [Flexbox](Html-css/Estudos-Independentes/Flexbox)
-- [Grid Layout](Html-css/Estudos-Independentes/Grid)
+- [Flexbox](Estudos-Independentes/Flexbox)
+- [Grid Layout](Estudos-Independentes/Grid)
 
 ## :handshake: Contribuição
 
