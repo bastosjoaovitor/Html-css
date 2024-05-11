@@ -1,6 +1,4 @@
-# Meus Estudos de HTML e CSS 🚀
-
-## :notebook: Sobre
+# Meus Estudos de HTML e CSS :notebook:
 
 Este repositório contém meus estudos de HTML e CSS, incluindo exercícios do [Curso em Vídeo](https://www.cursoemvideo.com/), e exercícios autodidatas.
 
