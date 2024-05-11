@@ -8,10 +8,10 @@ Este repositório contém meus estudos de HTML e CSS, incluindo exercícios do [
 
 Neste diretório estão os exercícios realizados durante o curso de HTML e CSS do Curso em Vídeo.
 
-- [Módulo 1](módulo_1)
-- [Módulo 2](módulo_2)
-- [Módulo 3](módulo_3)
-- [Módulo 4](módulo_4)
+- [Módulo 1](módulo\1)
+- [Módulo 2](módulo\2)
+- [Módulo 3](módulo\3)
+- [Módulo 4](módulo\4)
 
 ## :bulb: Estudos Autodidatas
 
