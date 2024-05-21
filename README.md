@@ -1,23 +1,27 @@
-# Meus Estudos de HTML e CSS :notebook:
+# HTML and CSS Studies
 
-Este repositório contém meus estudos de HTML e CSS, incluindo exercícios do [Curso em Vídeo](https://www.cursoemvideo.com/), e exercícios autodidatas.
+This repository contains my HTML and CSS studies, including exercises completed during the HTML and CSS course offered by [Curso em Vídeo](https://www.cursoemvideo.com/), as well as additional self-taught studies.
 
-## :computer: Exercícios do Curso em Vídeo
+## Other Languages
 
-Neste diretório estão os exercícios realizados durante o curso de HTML e CSS do Curso em Vídeo.
+- [Versão em Português](README_pt-BR.md)
 
-- [Módulo 1](módulo%201)
-- [Módulo 2](módulo%202)
-- [Módulo 3](módulo%203)
-- [Módulo 4](módulo%204)
+## Curso em Vídeo Exercises
 
-## :bulb: Estudos Autodidatas
+This directory contains the exercises completed during the HTML and CSS course from Curso em Vídeo.
 
-Neste diretório estão meus estudos autodidatas sobre Flexbox e Grid layout.
+- [Module 1](module%201)
+- [Module 2](module%202)
+- [Module 3](module%203)
+- [Module 4](module%204)
 
-- [Flexbox](Estudos-Independentes/Flexbox)
-- [Grid Layout](Estudos-Independentes/Grid)
+## Self-Taught Studies
 
-## :handshake: Contribuição
+This directory includes my independent studies on Flexbox and Grid Layout.
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+- [Flexbox](Independent-Studies/Flexbox)
+- [Grid Layout](Independent-Studies/Grid)
+
+## Contributions
+
+Contributions are very welcome. Please feel free to open an issue or submit a pull request.
