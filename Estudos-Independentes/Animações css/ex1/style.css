@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@keyframes animation {
+
+    /* from {background-color: greenyellow;}
+    to {background-color: rgb(255, 0, 0);} */
+
+    0% {background-color: rgb(0, 255, 0);}
+    25% {background-color: rgb(0, 0, 255);}
+    50% {background-color: rgb(255, 0, 0);}
+    75% {background-color: rgb(0, 0, 255);}
+    100% {background-color: rgb(0, 255, 0);}
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 234, 189);
+}
+
+.container {
+    background-color: rgb(0, 255, 0);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20vh;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
