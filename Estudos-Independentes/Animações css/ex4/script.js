@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
             this.classList.add('touch');
         });
 
-        span.addEventListener('touchcancel', function() {
+        span.addEventListener('touchend', function() {
             this.classList.remove('touch');
             this.classList.add('not-touch');
         });
