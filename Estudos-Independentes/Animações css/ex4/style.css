@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+p {
+    color: rgb(30, 30, 30);
+    margin-left: 5px;
+    width: 100vw;
+    padding: 1vw;
+    word-break: break-all;
+    font-size: 5vh;
+    user-select: none;
+}
+
+span {
+    transition: 1s;
+}
+
+span:hover {
+    transition: 0s;
+    cursor: default;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgb(0, 255, 0),
+                 0px 0px 20px rgb(0, 255, 0),
+                 0px 0px 40px rgb(0, 255, 0),
+                 0px 0px 80px rgb(0, 255, 0),
+                 0px 0px 160px rgb(0, 255, 0);
+}
+
+span:not(:hover) {
+    animation-name: animation;
+    animation-duration: 1.5s;
+}
+
+@keyframes animation {
+    0% {
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 10px rgb(0, 255, 0),
+                     0px 0px 20px rgb(0, 255, 0),
+                     0px 0px 40px rgb(0, 255, 0),
+                     0px 0px 80px rgb(0, 255, 0),
+                     0px 0px 160px rgb(0, 255, 0);
+    }
+    50% {
+        color: rgb(185, 185, 185);
+        text-shadow: 0px 0px 10px rgb(0, 255, 0);
+    }
+    100% {
+        color: rgb(30, 30, 30);
+        text-shadow: 0px 0px 0px rgb(0, 0, 0);
+    }
+}
