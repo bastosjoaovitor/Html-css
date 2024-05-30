@@ -21,6 +21,7 @@ Este diretório inclui meus estudos independentes sobre Flexbox e Grid Layout.
 
 - [Flexbox](Estudos-Independentes/Flexbox)
 - [Grid Layout](Estudos-Independentes/Grid)
+- [Animações em CSS](Estudos-Independentes/Animações%20css)
 
 ## Contribuições
 
