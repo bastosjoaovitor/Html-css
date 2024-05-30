@@ -8,12 +8,12 @@ document.addEventListener("DOMContentLoaded", function() {
         span.textContent = char;
         textElement.appendChild(span);
 
-        span.addEventListener('touchstart', function() {
+        span.addEventListener('touchmove', function() {
             this.classList.remove('not-touch');
             this.classList.add('touch');
         });
 
-        span.addEventListener('touchend', function() {
+        span.addEventListener('touchcancel', function() {
             this.classList.remove('touch');
             this.classList.add('not-touch');
         });
