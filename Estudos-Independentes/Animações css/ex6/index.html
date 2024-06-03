@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card" style="--clr:#ff4f4f;">01</div>
+        <div class="card" style="--clr:#5bff5b;">02</div>
+        <div class="card" style="--clr:#3030ff;">03</div>
+        <div class="card" style="--clr:#ff58ff;">04</div>
+    </div>
+    <script>
+        let card = document.querySelectorAll('.card').forEach(cards => {
+            cards.addEventListener('mousemove', (e) => {
+                let x = e.offsetX;
+                let y = e.offsetY;
+                let cardWidth = cards.clientWidth;
+                let cardHeight = cards.clientHeight;
+                let posX = (x - cardWidth/2);
+                let posY = (y - cardHeight/2);
+                cards.style.transform = `translateX(${posX}px) translateY(${posY}px)`;
+            })
+            cards.addEventListener('mouseout', (e) => {
+                cards.style.transform = ``;
+            })
+        })
+    </script>
+</body>
+</html>

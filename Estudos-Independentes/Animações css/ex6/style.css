@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: var(--clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    color: #00000040;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.1s;
+}
