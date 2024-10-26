@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@import 'animations.scss';
+@import '_mixins.scss';
+@import '_variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+body {
+    @include flexCenter();
+    background-color: $color1;
+    width: 100%;
+    min-height: 100vh;
+}
+
+main {
+    @include flexCenter(column, 20px);
+    width: 90vw;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: $color2;
+    
+    h1 {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    p {
+        color: #ffffff80
+    }
+}
+
+#div-p {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+
+    > div {
+        width: 100px;
+        height: 100px;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all .2s ease;
+    }
+
+    #div-1, #div-2, #div-3 {
+        &:hover {
+            filter: invert(100%);
+        }
+        &:active{
+            filter: sepia(80%) saturate(130%);
+            scale: 1.1;
+        }
+    }
+
+    #div-1 {
+        background-color: $color3;
+    }
+
+    #div-2 {
+        background-color: $color4;
+    }
+
+    #div-3 {
+        background-color: $color5;
+    }
+}
